@@ -25,14 +25,12 @@ const App = () => {
         <Grid item sm={2} xs={2}>
           <Leftbar />
         </Grid>
-        <Grid item sm={7} xs={10}>
+        <Grid item sm={10} xs={10}>
           <Game/>
         </Grid>
-        <Grid item sm={3} className={classes.right}>
-          <Rightbar />
-        </Grid>
+     
       </Grid>
-      <Add />
+      {/* <Add /> */}
     </div>
   );
 };
